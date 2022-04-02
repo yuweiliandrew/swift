@@ -2,4 +2,5 @@ project: yuweiliandrew/swift
 target: swiftc
 
 cmds:
-  - cmd: /usr/bin/swiftc @@
+  - cmd: /usr/bin/swiftc /tmp/my_custom_file.swift
+    filepath: /tmp/my_custom_file.swift
