@@ -9,4 +9,4 @@ project: yuweiliandrew/swift
 target: fuzzme
 
 cmds:
-  - cmd: fuzzme.swift
+  - cmd: /fuzzme.swift
