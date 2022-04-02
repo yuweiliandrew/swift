@@ -1195,3 +1195,7 @@ if(XCODE)
   add_custom_target(Miscellaneous
       SOURCES ${SWIFT_TOPLEVEL_HEADERS})
 endif()
+
+
+target_compile_options(fuzzme PUBLIC -fsanitize=fuzzer)
+target_link_options(fuzzme PUBLIC -fsanitize=fuzzer)

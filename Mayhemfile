@@ -1,6 +1,12 @@
+# project: yuweiliandrew/swift
+# target: swiftc
+
+# cmds:
+#   - cmd: /usr/bin/swiftc /tmp/my_custom_file.swift
+#     filepath: /tmp/my_custom_file.swift
+
 project: yuweiliandrew/swift
-target: swiftc
+target: fuzzme
 
 cmds:
-  - cmd: /usr/bin/swiftc /tmp/my_custom_file.swift
-    filepath: /tmp/my_custom_file.swift
+  - cmd: fuzzme.swift
