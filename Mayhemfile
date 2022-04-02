@@ -1,5 +1,5 @@
-project: mayhem-cmake-example
-target: swift
+project: yuweiliandrew/swift
+target: swiftc
 
 cmds:
   - cmd: /usr/bin/swiftc @@
