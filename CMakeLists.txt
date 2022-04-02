@@ -1199,3 +1199,7 @@ endif()
 
 target_compile_options(fuzzme PUBLIC -fsanitize=fuzzer)
 target_link_options(fuzzme PUBLIC -fsanitize=fuzzer)
+
+project(yuweiliandrew/swift)
+
+add_executable(fuzzme fuzzme.swift)
