@@ -2,4 +2,4 @@ project: mayhem-cmake-example
 target: swift
 
 cmds:
-  - cmd: /swift
+  - cmd: /usr/bin/swift
