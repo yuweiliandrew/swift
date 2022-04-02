@@ -6,8 +6,8 @@
 #     filepath: /tmp/my_custom_file.swift
 
 project: yuweiliandrew/swift
-target: fuzzme
+target: swiftc
 
 cmds:
-  - cmd: /fuzzme
+  - cmd: user/bin/swiftc fuzzme
     filepath: /fuzzme.swift
